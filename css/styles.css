@@ -1446,6 +1446,11 @@ h1, h2, h3, h4, h5 {
   .estimate-form-wrap { padding: 28px 20px; }
   .photo-strip { grid-template-columns: repeat(2, 1fr); }
   .page-hero { padding: 120px 0 60px; }
+  .hero-photo-bg::after {
+    background:
+      linear-gradient(rgba(6,18,30,0.78), rgba(10,46,74,0.72)),
+      url('../images/truck-side.jpeg') center 60% / contain no-repeat;
+  }
 }
 
 @media (max-width: 900px) {
