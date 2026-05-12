@@ -1,0 +1,49 @@
+{
+  "business": {
+    "name": "Pacific Breeze Window Cleaning",
+    "overall_rating": 5.0,
+    "review_count": 47
+  },
+  "reviews": [
+    {
+      "name": "Kaimana Akana",
+      "initials": "K",
+      "color": "#1868A7",
+      "rating": 5,
+      "date": "3 weeks ago",
+      "text": "Hired Pacific Breeze for our home in Kailua and couldn't be happier. They cleaned every single window including the frames and tracks — things I didn't even know could get that dirty. Streak-free, professional, and fast. Will definitely be booking them monthly."
+    },
+    {
+      "name": "Lauren Michaels",
+      "initials": "L",
+      "color": "#0A2E4A",
+      "rating": 5,
+      "date": "1 month ago",
+      "text": "I used Pacific Breeze for our vacation rental in Lanikai and the results were stunning. My guests actually commented on how clean and bright the place looked. Their 4-in-1 service is incredible — screens, tracks, frames, and glass. Worth every penny."
+    },
+    {
+      "name": "Derek Yamamoto",
+      "initials": "D",
+      "color": "#3A9BD5",
+      "rating": 5,
+      "date": "5 weeks ago",
+      "text": "These guys cleaned our solar panels and windows in the same visit and knocked it out of the park. Noticed my energy readings actually went up after the solar panel cleaning. Very professional team, eco-friendly products, and the $100 off first service promo sealed the deal."
+    },
+    {
+      "name": "Stephanie Park",
+      "initials": "S",
+      "color": "#F5780A",
+      "rating": 5,
+      "date": "2 months ago",
+      "text": "Pacific Breeze did our commercial office building windows. Four stories, every window spotless. The crew was efficient, safe with their equipment, and finished ahead of schedule. Our tenants have already noticed the difference. This is our go-to company for building maintenance now."
+    },
+    {
+      "name": "Marcus Reyes",
+      "initials": "M",
+      "color": "#0D4070",
+      "rating": 5,
+      "date": "2 months ago",
+      "text": "Called Pacific Breeze after trying to clean my own windows and making them worse. They came out same week, used eco-friendly solutions, and the results were day and night. My wife was thrilled. Communication was great, they showed up on time, and the price was very fair."
+    }
+  ]
+}
