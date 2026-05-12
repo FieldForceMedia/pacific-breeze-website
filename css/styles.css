@@ -1421,12 +1421,12 @@ h1, h2, h3, h4, h5 {
   .nav-cta { display: none; }
   .nav-phone-btn span { display: none; }
   .nav-phone-btn { padding: 10px 14px; }
-  .hero { min-height: auto; padding: 100px 0 56px; }
-  .hero-title { font-size: clamp(3.2rem, 11vw, 5rem); }
-  .hero-sub { font-size: 0.88rem; line-height: 1.65; margin-bottom: 32px; }
-  .hero-review-pill { font-size: 0.72rem; padding: 6px 14px; gap: 7px; margin-bottom: 16px; }
-  .hero-stars { font-size: 0.65rem; }
-  .hero-badge { font-size: 9px; padding: 6px 14px; margin-bottom: 20px; }
+  .hero { min-height: 560px; padding: 88px 0 40px; }
+  .hero-title { font-size: clamp(2.6rem, 10vw, 3.8rem); line-height: 1.05; }
+  .hero-sub { font-size: 0.85rem; line-height: 1.6; margin-bottom: 28px; }
+  .hero-review-pill { font-size: 0.65rem; padding: 5px 10px; gap: 5px; margin-bottom: 14px; }
+  .hero-stars { font-size: 0.6rem; letter-spacing: 1px; }
+  .hero-badge { font-size: 9px; padding: 5px 12px; margin-bottom: 16px; }
   .container { padding: 0 20px; }
   .section { padding: 72px 0; }
   .section-navy { padding: 72px 0; }
@@ -1453,8 +1453,8 @@ h1, h2, h3, h4, h5 {
   .page-hero { padding: 120px 0 60px; }
   .hero-photo-bg::after {
     background:
-      linear-gradient(rgba(6,18,30,0.78), rgba(10,46,74,0.72)),
-      url('../images/truck-side.jpeg') center 60% / contain no-repeat;
+      linear-gradient(rgba(6,18,30,0.72), rgba(10,46,74,0.65)),
+      url('../images/truck-side.jpeg') center 40% / cover no-repeat;
   }
 }
 
