@@ -1421,7 +1421,12 @@ h1, h2, h3, h4, h5 {
   .nav-cta { display: none; }
   .nav-phone-btn span { display: none; }
   .nav-phone-btn { padding: 10px 14px; }
-  .hero-title { font-size: clamp(2.5rem, 10vw, 4rem); }
+  .hero { min-height: auto; padding: 100px 0 56px; }
+  .hero-title { font-size: clamp(3.2rem, 11vw, 5rem); }
+  .hero-sub { font-size: 0.88rem; line-height: 1.65; margin-bottom: 32px; }
+  .hero-review-pill { font-size: 0.72rem; padding: 6px 14px; gap: 7px; margin-bottom: 16px; }
+  .hero-stars { font-size: 0.65rem; }
+  .hero-badge { font-size: 9px; padding: 6px 14px; margin-bottom: 20px; }
   .container { padding: 0 20px; }
   .section { padding: 72px 0; }
   .section-navy { padding: 72px 0; }
