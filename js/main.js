@@ -292,3 +292,15 @@ if (contactForm) {
     }, 4000);
   });
 }
+
+// Field Force lead tracking (GA4): every tap on a phone link = "click_to_call",
+// every visit to the quote page = "quote_page_view". Both are marked as key events in GA.
+// Form submissions are reported by Jobber itself (tracking code set on the "Field Force Website Form").
+(function () {
+  if (typeof window.gtag !== 'function') return;
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href^="tel:"]');
+    if (a) window.gtag('event', 'click_to_call', { link_url: a.getAttribute('href'), page_path: location.pathname });
+  });
+  if (/\/estimate(\.html)?$/.test(location.pathname)) window.gtag('event', 'quote_page_view');
+})();
